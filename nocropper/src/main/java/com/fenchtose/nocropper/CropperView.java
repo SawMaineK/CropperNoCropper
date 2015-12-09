@@ -47,7 +47,7 @@ public class CropperView extends FrameLayout {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
-        int orientation = getContext().getResources().getConfiguration().orientation;
+        /*int orientation = getContext().getResources().getConfiguration().orientation;
 
         if (orientation == Configuration.ORIENTATION_PORTRAIT ||
                 orientation == Configuration.ORIENTATION_UNDEFINED) {
@@ -62,7 +62,7 @@ public class CropperView extends FrameLayout {
             int width = MeasureSpec.makeMeasureSpec(height, MeasureSpec.EXACTLY);
             setMeasuredDimension(width, height);
 
-        }
+        }*/
 
     }
 
